@@ -3,7 +3,7 @@ export default function Home() {
     <>
   <header
     id="navbar"
-    className="@@link-color fixed top-0 inset-x-0 flex items-center z-40 w-full lg:bg-transparent bg-white transition-all py-5"
+    className="@@link-color fixed top-0 inset-x-0 flex items-center z-40 w-full  bg-white transition-all py-5"
   >
     <div className="container">
       <nav className="flex items-center">
@@ -984,7 +984,7 @@ export default function Home() {
                         </a>
                       </div>
                       <img
-                        src="assets/images/hero/saas1.png"
+                        src="@/assets/images/hero/saas1.png"
                         alt="saas1"
                         className="w-full h-full rounded-md"
                       />
