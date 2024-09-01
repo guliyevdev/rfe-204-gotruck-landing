@@ -7,9 +7,9 @@ File: style Css File
 */
 
 
-// @import "tailwindcss/base";
-// @import "tailwindcss/components";
-// @import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 // Custom
 @import "custom/reboot";
