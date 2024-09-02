@@ -5,14 +5,13 @@ export const FeaturesSection = () => {
                 <div className="container">
                     <div className="text-center">
                         <span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
-                            Features
+                            Üstünlüklər
                         </span>
                         <h1 className="text-3xl/tight font-medium mt-3 mb-4">
-                            Better Management. Better Performance
+                            Sadə Sifariş Prosesi
                         </h1>
                         <p className="text-gray-500">
-                            Start working with <span className="text-primary">Prompt</span> to
-                            manage your workforce better
+                            Bir neçə kliklə TIR və yük maşınlarını sifariş edin. İstifadəçi dostu interfeys ilə asan və sürətli sifariş.
                         </p>
                     </div>
                     <div className="xl:pt-16 xl:pb-28 py-16">
@@ -70,18 +69,16 @@ export const FeaturesSection = () => {
                                             </svg>
                                         </div>
                                         <h1 className="font-medium mb-4 mt-2">
-                                            Improve Employee Experience
+                                            Real Vaxtda İzləmə
                                         </h1>
                                     </button>
                                     <div className="w-full overflow-hidden duration-300 ps-16">
                                         <p className="text-gray-700 dark:text-gray-300">
-                                            Before we dive into why companies must invest in employee
-                                            experience (EX), it’s important to understand what this
-                                            concept entails.
+                                            Yükünüzü real vaxtda izləyin. Hər an nəqliyyat vasitəsinin harada olduğunu, təxmini çatma vaxtını və yol vəziyyətini görün.
                                         </p>
                                         <div className="mt-7 flex items-center">
                                             <a href="#" className="text-primary">
-                                                Learn more <i className="fa-solid fa-arrow-right ms-2" />
+                                                Daha ətraflı <i className="fa-solid fa-arrow-right ms-2" />
                                             </a>
                                         </div>
                                     </div>
@@ -121,13 +118,12 @@ export const FeaturesSection = () => {
                                             </svg>
                                         </div>
                                         <h1 className="font-medium mb-4 mt-2">
-                                            Hiring &amp; Onboarding
+                                            Ətraflı Axtarış və Filtrləmə
                                         </h1>
                                     </button>
                                     <div className="hidden w-full overflow-hidden duration-300 ps-16">
                                         <p className="text-gray-700 dark:text-gray-300">
-                                            Post your job, interview candidates and make offers, all on
-                                            Prompt. Start hiring today.
+                                            Ehtiyacınıza uyğun ən uyğun nəqliyyat vasitələrini tapmaq üçün axtarış və filtr tətbiq edin.
                                         </p>
                                         <div className="mt-7 flex items-center">
                                             <a href="#" className="text-primary">
@@ -195,17 +191,17 @@ export const FeaturesSection = () => {
                                             </svg>
                                         </div>
                                         <h1 className="font-medium mb-4 mt-2">
-                                            People Data &amp; Analytics
+                                            Tarixçə və Data:
                                         </h1>
                                     </button>
                                     <div className="hidden w-full overflow-hidden duration-300 ps-16">
                                         <p className="text-gray-700 dark:text-gray-300">
-                                            Finding committed employees is one of public and private
-                                            organizations’ top priorities.
+                                            Sifarişlərinizin tarixçəsini və detallarını asanlıqla nəzərdən keçirin.
+                                            Keçmiş sifarişlər, daşınma qiyməti və digər ətraflı məlumatları əldə edin.
                                         </p>
                                         <div className="mt-7 flex items-center">
                                             <a href="#" className="text-primary">
-                                                Learn more <i className="fa-solid fa-arrow-right ms-2" />
+                                                Daha ətraflı <i className="fa-solid fa-arrow-right ms-2" />
                                             </a>
                                         </div>
                                     </div>
@@ -250,16 +246,15 @@ export const FeaturesSection = () => {
                                     </svg>
                                 </div>
                                 <h1 className="text-3xl/tight font-medium mt-6 mb-4">
-                                    Smart Payroll. Paying your people couldn't be easier
+                                    Dinamik Qiymət Hesablama
                                 </h1>
                                 <p className="text-gray-500">
-                                    You can modify your pages with drag-dropping , can import demos
-                                    with just ” One Click” and can modify theme setting easy-to-use
-                                    options panel.
+                                    Qiymətləri marşrut uzunluğu, yük çəkisi, daşıma şəraiti və digər amillərə
+                                    əsaslanaraq dəqiq və şəffaf şəkildə hesablayırıq.
                                 </p>
                                 <div className="flex items-center mt-12">
                                     <a href="#" className="text-primary">
-                                        Learn more <i className="fa-solid fa-arrow-right ms-2" />{" "}
+                                        Daha ətraflı <i className="fa-solid fa-arrow-right ms-2" />{" "}
                                     </a>
                                 </div>
                             </div>
@@ -283,7 +278,7 @@ export const FeaturesSection = () => {
                 <div className="container" data-aos="fade-up" data-aos-duration={600}>
                     <div className="text-center">
                         <h1 className="text-2xl font-medium">
-                            Any many more powerful features
+                            Və bir çox daha güclü xüsusiyyətlər
                         </h1>
                     </div>
                     <div className="py-16">
@@ -293,13 +288,14 @@ export const FeaturesSection = () => {
                                     <p className="flex items-center gap-3">
                                         {" "}
                                         <i className="fa-solid fa-check text-green-500 text-xl" />{" "}
-                                        Hire and Retain Top Talent
+                                        Mobil tətbiqlə sifariş imkanı
                                     </p>
                                     <p className="flex items-center gap-3">
                                         {" "}
                                         <i className="fa-solid fa-check text-green-500 text-xl" />{" "}
-                                        Team Management
+                                        Təhlükəsiz və Etibarlı
                                     </p>
+
                                 </div>
                             </div>
                             <div className="order-3 xl:order-2">
@@ -307,17 +303,12 @@ export const FeaturesSection = () => {
                                     <p className="flex items-center gap-3">
                                         {" "}
                                         <i className="fa-solid fa-check text-green-500 text-xl" />{" "}
-                                        Stay Compliant
+                                        Qənaətcil Qiymətlər
                                     </p>
                                     <p className="flex items-center gap-3">
                                         {" "}
                                         <i className="fa-solid fa-check text-green-500 text-xl" />{" "}
-                                        Improve Productivity
-                                    </p>
-                                    <p className="flex items-center gap-3">
-                                        {" "}
-                                        <i className="fa-solid fa-check text-green-500 text-xl" />{" "}
-                                        Improve Experience
+                                        Daim izlənilə bilən yük maşınları
                                     </p>
                                 </div>
                             </div>
@@ -326,31 +317,27 @@ export const FeaturesSection = () => {
                                     <p className="flex items-center gap-3">
                                         {" "}
                                         <i className="fa-solid fa-check text-green-500 text-xl" />{" "}
-                                        Self-service Time Tracking
+                                        Paylaşıla bilən lokasyonlar
                                     </p>
                                     <p className="flex items-center gap-3">
                                         {" "}
                                         <i className="fa-solid fa-check text-green-500 text-xl" />{" "}
-                                        Performance Management
+                                        Hər sifarişdə yığılan bonuslar
                                     </p>
-                                    <p className="flex items-center gap-3">
-                                        {" "}
-                                        <i className="fa-solid fa-check text-green-500 text-xl" />{" "}
-                                        Expert HR
-                                    </p>
+
                                 </div>
                             </div>
                             <div className="order-2 xl:order-4">
                                 <div className="flex flex-col gap-5">
                                     <p className="flex items-center gap-3">
                                         {" "}
-                                        <i className="fa-solid fa-check text-green-500 text-xl" /> New
-                                        Hire Checklist
+                                        <i className="fa-solid fa-check text-green-500 text-xl" />{" "}
+                                        Sərfəli geri dönüş yükləri
                                     </p>
                                     <p className="flex items-center gap-3">
                                         {" "}
-                                        <i className="fa-solid fa-check text-green-500 text-xl" /> Tax
-                                        Calculator
+                                        <i className="fa-solid fa-check text-green-500 text-xl" />{" "}
+                                        Müştəri Dəstəyi
                                     </p>
                                 </div>
                             </div>
@@ -361,7 +348,7 @@ export const FeaturesSection = () => {
                             href="#"
                             className="bg-primary text-white rounded-lg text-sm font-semibold flex-none hover:shadow-lg  hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 px-6 py-3"
                         >
-                            Sign Up Now <i className="fa-solid fa-arrow-right ms-2" />{" "}
+                            Sifariş et <i className="fa-solid fa-arrow-right ms-2" />{" "}
                         </a>
                     </button>
                 </div>

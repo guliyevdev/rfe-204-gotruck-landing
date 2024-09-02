@@ -5,15 +5,14 @@ export const HeroSection = () => {
                 <div className="grid lg:grid-cols-6 grid-cols-1 justify-between items-center gap-6">
                     <div className="lg:col-span-3">
                         <h2 className="md:text-5xl/tight text-3xl font-semibold mb-7">
-                            The best way to
+                        Hər an, hər yerdə.
                             <span className="relative after:bg-amber-400/60 after:h-6 after:w-full after:inset-x-0 after:bottom-0 after:absolute after:-z-10">
-                                Showcase
+                                GoTruckla
                             </span>
-                            your Mobile App
+                            istədiyiniz nəqliyyat vasitəsini sadə və sürətli şəkildə tapın.
                         </h2>
                         <p className="text-slate-400 leading-7">
-                            To increase sales by skyrocketing communication with All messages in
-                            one simple dashboard it now takes seconds.
+                        Daşınma ehtiyaclarınız üçün ideal həll! GoTruck platforması ilə marşrut, yük və zaman məhdudiyyətlərini nəzərə alaraq ən uyğun nəqliyyat vasitəsini seçin.
                         </p>
                         <div className="flex flex-wrap items-center mt-16 gap-6">
                             <a
