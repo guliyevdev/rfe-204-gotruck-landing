@@ -10,17 +10,9 @@ export const Header: React.FC = () => {
         <div className="container">
           <nav className="flex items-center">
             {/* Navbar Brand Logo */}
-            <a href="index.html">
-              <img
-                src="assets/images/logo-dark.png"
-                className="h-8 logo-dark"
-                alt="Logo Dark"
-              />
-              <img
-                src="assets/images/logo-light.png"
-                className="h-8 logo-light"
-                alt="Logo Light"
-              />
+            <a href="index.html flex" className='text-2xl font-semibold'>
+            <img src="assets/images/logo.png" className="h-8 logo-dark mx-2" alt="Logo Dark" />
+              GoTruck
             </a>
             {/* Nevigation Menu */}
             <div className="hidden lg:block ms-auto">
