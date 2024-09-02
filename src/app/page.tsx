@@ -1,10 +1,6 @@
-import Header from "@/app/components/header";
-import { Footer } from "./components/footer";
-
 export default function Home() {
   return (
     <>
-  <Header />
     {/* =========== Hero Section Start =========== */}
     <section className="bg-gradient-to-t from-slate-500/10 relative">
       <section className="relative pt-44 pb-36">
@@ -956,9 +952,6 @@ export default function Home() {
       </div>
     </section>
     {/* =========== faq Section end =========== */}
-    {/* =========== footer Section start =========== */}
-    <Footer/>
-    {/* =========== footer Section end =========== */}
   </>
   
 

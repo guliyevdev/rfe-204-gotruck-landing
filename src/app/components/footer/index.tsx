@@ -1,7 +1,8 @@
 import React from "react";
 
 export const Footer = () =>{
-    return(<footer className="bg-gray-100">
+    return(
+    <footer className="bg-gray-100">
         <div className="container">
           <div className="grid xl:grid-cols-5 gap-6 py-12">
             <div className="xl:col-span-2">
