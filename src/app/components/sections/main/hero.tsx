@@ -26,7 +26,7 @@ export const HeroSection = () => {
                                     <i className="fa-solid fa-play" />
                                 </span>
                                 <p className="font-medium text-primary hover:text-primary/90">
-                                    Təqdimatı izlə
+                                    Təlimatı izlə
                                 </p>
                             </a>
                         </div>
