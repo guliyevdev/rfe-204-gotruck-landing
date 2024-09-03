@@ -25,34 +25,23 @@ export const Footer = () => {
             <ul className="flex flex-wrap items-center justify-center gap-5">
               <li className="after:content-['-'] after:text-slate-500 after:font-extrabold">
                 <a href="#" className="hover:text-primary me-4">
-                  About
+                  Əsas səhifə
                 </a>
               </li>
               <li className="after:content-['-'] after:text-slate-500 after:font-extrabold">
                 <a href="#" className="hover:text-primary me-4">
-                  Privacy
+                  Sifariş et
                 </a>
               </li>
               <li className="after:content-['-'] after:text-slate-500 after:font-extrabold">
                 <a href="#" className="hover:text-primary me-4">
-                  Terms
-                </a>
-              </li>
-              <li className="after:content-['-'] after:text-slate-500 after:font-extrabold">
-                <a href="#" className="hover:text-primary me-4">
-                  Developers
-                </a>
-              </li>
-              <li className="after:content-['-'] after:text-slate-500 after:font-extrabold">
-                <a href="#" className="hover:text-primary me-4">
-                  Support
+                  Bloq
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-primary">
-                  Careers
                   <span className="px-2 py-1 text-xs rounded-full text-primary bg-primary/10">
-                    We're hiring
+                    Yüklə
                   </span>
                 </a>
               </li>
