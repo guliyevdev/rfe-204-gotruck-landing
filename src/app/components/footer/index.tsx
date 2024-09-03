@@ -57,9 +57,10 @@ export const Footer = () => {
                 </a>
               </li>
             </ul>
-            <p className="my-5">© Prompt. All rights reserved. Crafted by</p>
-            <a href="index.html">
-              <img src="assets/images/logo-dark.png" className="h-8 mx-auto" />
+            <p className="my-5">© Gotruck. All rights reserved. Crafted by</p>
+              <a href="index.html" className='text-2xl flex font-semibold justify-center'>
+            <img src="assets/images/logo.png" className="h-8 logo-dark mx-2" alt="Logo Dark" />
+              <span>GoTruck</span>
             </a>
           </div>
         </div>
