@@ -7,11 +7,10 @@ export const Footer = () => {
         <div className="text-center">
           <div>
             <h2 className="md:text-3xl text-xl font-semibold my-5">
-              Start offering your users a better experience
+            Mobil tətbiq ilə daha rahat sifariş edin
             </h2>
             <p className="text-slate-500">
-              Start working with <span className="text-primary">Prompt</span> to
-              showcase your app to thousands of people.
+            GoTruck mobil tətbiqi ilə yük daşınması daha da sadədir!
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4 my-10">
               <a href="#">
