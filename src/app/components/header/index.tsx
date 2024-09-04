@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
         <div className="container">
           <nav className="flex items-center">
             {/* Navbar Brand Logo */}
-            <a href="index.html" className='text-2xl flex font-semibold'>
+            <a href="" className='text-2xl flex font-semibold'>
             <img src="assets/images/logo.png" className="h-8 logo-dark mx-2" alt="Logo Dark" />
               <span>GoTruck</span>
             </a>
@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
               <ul className="navbar-nav flex gap-x-3 items-center justify-center">
                 {/* Home Page Link */}
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">
+                  <a className="nav-link" href="">
                     Əsas səhifə
                   </a>
                 </li>
