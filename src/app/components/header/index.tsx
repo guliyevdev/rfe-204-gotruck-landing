@@ -80,7 +80,7 @@ export const Header: React.FC = () => {
             <ul className="navbar-nav flex flex-col gap-2" data-fc-type="accordion">
               {/* Home Page Link */}
               <li className="nav-item">
-                <a href="index.html" className="nav-link">
+                <a href="" className="nav-link">
                   Home
                 </a>
               </li>
