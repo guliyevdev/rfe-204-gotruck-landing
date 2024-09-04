@@ -1,12 +1,6 @@
 import React from 'react';
 
-interface BlogProps {
-  id: string;
-}
-
-const Blog: React.FC<BlogProps> = ({ id }) => {
-  // Your component logic goes here
-
+const Blog: React.FC = () => {
   return (
     <div>
       <p>Hello world</p>

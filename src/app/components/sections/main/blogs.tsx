@@ -1,6 +1,7 @@
 
 export const BlogSection = () => {
-    return (<section className="py-20">
+    return (
+    <section className="py-20">
         <div className="container">
             <div className="text-center">
                 <span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
