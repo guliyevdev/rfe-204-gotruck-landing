@@ -1,6 +1,6 @@
 "use client";
 
-import axios from "axios";
+import axios from '@/utils/axios';
 import { useState, useEffect } from "react";
 
 export const FaqSection = () => {
@@ -14,7 +14,7 @@ export const FaqSection = () => {
     useEffect(() => {
         const loadFaqData = async () => {
             try {
-                const response = await axios('http://localhost:1337/api/faqs'); 
+                const response = await axios('/faqs'); 
                 console.log(response)
                 setFaqData(response.data.data);
             } catch (error) {
@@ -33,10 +33,10 @@ export const FaqSection = () => {
                         FAQs
                     </span>
                     <h1 className="text-3xl/tight font-medium mt-3 mb-4">
-                        Frequently Asked Questions
+                        Tez-tez verilən suallar
                     </h1>
                     <p className="text-gray-500">
-                        Here are some of the basic types of questions for our customers
+                       Müştərilərimizin ən çox verdiyi sualların cavabları
                     </p>
                 </div>
                 <div
@@ -68,10 +68,10 @@ export const FaqSection = () => {
                 </div>
                 <div className="text-center mt-14">
                     <p className="inline-flex flex-wrap gap-1 bg-gray-100 text-sm rounded-lg py-2 px-5">
-                        Still have unanswered questions?
                         <a href="#" className="hover:text-primary transition-all">
+                        Hələ də cavabsız suallarınız var?
                             {' '}
-                            Contact Us
+                            Bizə yazın
                         </a>
                     </p>
                 </div>

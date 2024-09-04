@@ -7,7 +7,7 @@ export const BlogSection = () => {
                 <span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
                     Blog
                 </span>
-                <h1 className="text-3xl font-medium my-3">Interesting Articles</h1>
+                <h1 className="text-3xl font-medium my-3">Sektora aid maraqlı postlarımız</h1>
             </div>
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-12 gap-6">
                 <div

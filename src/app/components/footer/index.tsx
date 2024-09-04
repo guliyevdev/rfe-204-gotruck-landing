@@ -48,7 +48,7 @@ export const Footer = () => {
             </ul>
             <p className="my-5">© Gotruck. All rights reserved. Crafted by</p>
               <a href="index.html" className='text-2xl flex font-semibold justify-center'>
-            <img src="assets/images/Logo.png" className="h-8 logo-dark mx-2" alt="Logo Dark" />
+              <img src="assets/images/Logo.png" className="h-8 logo-dark mx-2" alt="Logo Dark" />
               <span>GoTruck</span>
             </a>
           </div>
