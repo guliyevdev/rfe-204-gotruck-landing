@@ -16,7 +16,7 @@ export const HeroSection = () => {
                         </p>
                         <div className="flex flex-wrap items-center mt-16 gap-6">
                             <a
-                                href="#"
+                                href="http://localhost:4173"
                                 className="py-3 px-6 rounded text-white bg-primary hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50"
                             >
                                 Sifariş et
