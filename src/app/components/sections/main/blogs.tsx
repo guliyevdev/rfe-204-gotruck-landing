@@ -18,10 +18,10 @@ export const BlogSection = () => {
                     <div className="relative">
                         <div className="absolute end-4 top-3">
                             <span className="px-3 py-1 text-sm font-medium text-white rounded-md bg-black">
-                                Design
+                                Logistics
                             </span>
                         </div>
-                        <img src="assets/images/hero/coworking1.jpg" />
+                        <img src="assets/images/hero/coworking1.webp" />
                         <div className="absolute -bottom-5">
                             <svg
                                 className="w-full h-14 text-white"
@@ -47,11 +47,10 @@ export const BlogSection = () => {
                     <div className="p-6">
                         <p className="text-sm">11 March, 2020</p>
                         <h4 className="text-lg hover:text-blue-700 font-semibold my-2">
-                            <a href="#">Top 10 design inspirations to follow</a>
+                            <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt eveniet odio!</a>
                         </h4>
                         <p className="text-slate-400 my-2">
-                            Single page websites are taking over the world, and that's why I
-                            would like you to present the best ...
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium natus laborum reprehenderit, aliquid eaque eos odit quo quaerat sunt officiis, facilis veniam ullam quae est voluptates dignissimos. Reprehenderit, molestiae!
                             <a href="#" className="text-slate-800 hover:text-blue-700">
                                 Read More
                             </a>
@@ -66,10 +65,10 @@ export const BlogSection = () => {
                     <div className="relative">
                         <div className="absolute end-4 top-3">
                             <span className="px-3 py-1 text-sm font-medium text-white rounded-md bg-primary">
-                                Development
+                                Logistics
                             </span>
                         </div>
-                        <img src="assets/images/hero/coworking2.png" />
+                        <img src="assets/images/hero/coworking1.webp" />
                         <div className="absolute -bottom-5">
                             <svg
                                 className="w-full h-14 text-white"
@@ -95,11 +94,10 @@ export const BlogSection = () => {
                     <div className="p-6">
                         <p className="text-sm">12 March, 2020</p>
                         <h4 className="text-lg hover:text-blue-700 font-semibold my-2">
-                            <a href="#">Top 10 design inspirations to follow</a>
+                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quisquam labore aliquid!</a>
                         </h4>
                         <p className="text-slate-400 my-2">
-                            We have shortlisted the best WordPress themes for alcohol
-                            production, distribution, and selling to...
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A ea commodi facilis quo exercitationem laborum nobis quis minima laudantium nihil. Cumque dolorum omnis, cum est architecto veniam quia! Ad, culpa!
                             <a href="#" className="text-slate-800 hover:text-blue-700">
                                 Read More
                             </a>
@@ -114,10 +112,10 @@ export const BlogSection = () => {
                     <div className="relative">
                         <div className="absolute end-4 top-3">
                             <span className="px-3 py-1 text-sm font-medium text-white rounded-md bg-black">
-                                Design
+                                Logistics
                             </span>
                         </div>
-                        <img src="assets/images/hero/coworking4.jpg" />
+                        <img src="assets/images/hero/coworking1.webp" />
                         <div className="absolute -bottom-5">
                             <svg
                                 className="w-full h-14 text-white"
