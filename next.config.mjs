@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-nextConfig.baseURL = 'https://your-base-url.com';
-
-export default nextConfig;
+const nextConfig = {
+    reactStrictMode: true,
+    // env: {
+    //   BASE_URL: 'https://localhost:3000',
+    // },
+  };
+  
+  export default nextConfig;
