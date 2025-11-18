@@ -7,9 +7,9 @@ export const HeroSection = () => {
                         <h2 className="md:text-5xl/tight text-3xl font-semibold mb-7">
                         Hər an, hər yerdə.
                             <span className="relative after:bg-amber-400/60 after:h-6 after:w-full after:inset-x-0 after:bottom-0 after:absolute after:-z-10">
-                                GoTruckla
+                                GoTruckla&nbsp;
                             </span>
-                            istədiyiniz nəqliyyat vasitəsini sadə və sürətli şəkildə tapın.
+                            istədiyiniz nəqliyyat vasitəsini sadə və sürətli şəkildə sifariş edin.
                         </h2>
                         <p className="text-slate-400 leading-7">
                         Daşınma ehtiyaclarınız üçün ideal həll! GoTruck platforması ilə marşrut, yük və zaman məhdudiyyətlərini nəzərə alaraq ən uyğun nəqliyyat vasitəsini seçin.
