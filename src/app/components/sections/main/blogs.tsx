@@ -17,6 +17,7 @@ type ArticleCover = {
 
 type Article = {
     id: number;
+    documentId: string;
     title: string;
     description: string;
     slug: string;
@@ -33,8 +34,11 @@ const API_BASE_URL =
     process.env.NEXT_PUBLIC_BASE_URL ||
     "http://34.51.231.49:1337/api";
 
-const ARTICLES_API_URL = `${API_BASE_URL.replace(/\/$/, "")}/articles?populate=*`;
-const DEFAULT_COVER_IMAGE = "assets/images/hero/coworking1.webp";
+const ARTICLES_API_URL = `${API_BASE_URL.replace(
+    /\/$/,
+    "",
+)}/articles/?populate=*`;
+const DEFAULT_COVER_IMAGE = "/assets/images/hero/coworking1.webp";
 
 const resolveCoverImage = (cover?: ArticleCover | null) => {
     if (!cover) {
@@ -148,14 +152,14 @@ export const BlogSection = async () => {
                                         {formatDate(article.createdAt)}
                                     </p>
                                     <h4 className="text-lg hover:text-blue-700 font-semibold my-2">
-                                        <Link href={`/blog/${article.slug}`}>
+                                        <Link href={`/blog/${article.documentId}`}>
                                             {article.title}
                                         </Link>
                                     </h4>
                                     <p className="text-slate-400 my-2">
                                         {article.description}
                                         <Link
-                                            href={`/blog/${article.slug}`}
+                                            href={`/blog/${article.documentId}`}
                                             className="text-slate-800 hover:text-blue-700 ms-1 inline-block"
                                         >
                                             Daha ətraflı
