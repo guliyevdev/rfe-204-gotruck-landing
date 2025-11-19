@@ -4,6 +4,8 @@ const BlogPage = () => {
     return (
         <>
             <section className="py-16 bg-slate-50">
+                <br/>
+                <br/>
                 <div className="container text-center">
                     <p className="text-sm font-semibold text-primary uppercase tracking-[0.3em]">
                         Blog
