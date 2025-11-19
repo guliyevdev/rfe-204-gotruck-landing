@@ -33,7 +33,7 @@ const API_BASE_URL =
     process.env.NEXT_PUBLIC_BASE_URL ||
     "http://34.51.231.49:1337/api";
 
-const ARTICLES_API_URL = `${API_BASE_URL.replace(/\/$/, "")}/articles/?populate=*`;
+const ARTICLES_API_URL = `${API_BASE_URL.replace(/\/$/, "")}/articles?populate=*`;
 const DEFAULT_COVER_IMAGE = "assets/images/hero/coworking1.webp";
 
 const resolveCoverImage = (cover?: ArticleCover | null) => {
@@ -158,7 +158,7 @@ export const BlogSection = async () => {
                                             href={`/blog/${article.slug}`}
                                             className="text-slate-800 hover:text-blue-700 ms-1 inline-block"
                                         >
-                                            Read More
+                                            Daha ətraflı
                                         </Link>
                                     </p>
                                 </div>
