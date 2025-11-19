@@ -114,7 +114,7 @@ export const BlogSection = async () => {
                                 <div className="relative">
                                     <div className="absolute end-4 top-3">
                                         <span className="px-3 py-1 text-sm font-medium text-white rounded-md bg-black">
-                                            Logistics
+                                            { article.slug }
                                         </span>
                                     </div>
                                     <img
